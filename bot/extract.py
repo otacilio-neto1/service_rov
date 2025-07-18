@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 import os
-from utils import getExecutionPath
+from .utils import getExecutionPath
 import pandas as pd
 
 # Calcular intervalo: últimos 15 dias até hoje
